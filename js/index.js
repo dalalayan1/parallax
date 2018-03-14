@@ -6,10 +6,13 @@
 
     anchorLinks.forEach(function(eachLink) {
         eachLink.addEventListener('click', changeImgCategory);
-    })
+    });
 
     function changeImgCategory(evt) {
         evt.preventDefault();
-        debugger
+
+        bgImgDivs.forEach(function(bgImgDiv, idx) {
+            bgImgDiv.style.backgroundImage = `url('../img/${evt.target.innerText}/image${idx+1}.jpeg`;
+        });
     }
 })();

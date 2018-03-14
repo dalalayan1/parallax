@@ -1,0 +1,76 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Lato', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background: #000;
+    z-index: 999;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+
+ul > li > a {
+    color: #ddd;
+}
+
+.bg-img {
+    min-height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.p-text {
+    color: #000;
+    background: #fff;
+    padding: 20px 40px;
+}
+
+.dark {
+    color: #ddd;
+    background: #000;
+}
+
+.img1 {
+    background-image: url('../img/city1.jpeg');
+}
+.img2 {
+    background-image: url('../img/city2.jpeg');
+}
+.img3 {
+    background-image: url('../img/city3.jpeg');
+}
+.img4 {
+    background-image: url('../img/city4.jpeg');
+}
+.img5 {
+    background-image: url('../img/city5.jpeg');
+}

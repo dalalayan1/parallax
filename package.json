@@ -1,0 +1,22 @@
+{
+  "name": "parallax",
+  "version": "1.0.0",
+  "description": "A simple implementation of parallax",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalalayan1/parallax.git"
+  },
+  "keywords": [
+    "parallax"
+  ],
+  "author": "Ayan Dalal <dalalayan1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalalayan1/parallax/issues"
+  },
+  "homepage": "https://github.com/dalalayan1/parallax#readme"
+}

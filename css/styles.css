@@ -55,6 +55,12 @@ h1 {
     padding: 20px 40px;
 }
 
+.p-text > p {
+    column-count: 2;
+    column-gap: 100px;
+    padding: 0 100px;
+}
+
 .dark {
     color: #ddd;
     background: #000;
